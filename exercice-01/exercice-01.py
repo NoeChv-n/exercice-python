@@ -8,10 +8,11 @@ taux_tva = 0.20
 total_ht = prix_ht * quantite
 total_ttc = total_ht * (1 + taux_tva)
 #3.
-print(f"Le total HT pour {quantite} {produit}(s) est de {total_ht:.2f} €")
-print(f"Le total TTC pour {quantite} {produit}(s) est de {total_ttc:.2f} €")
+print(f"Le total HT pour {quantite} x {produit}(s) est de {total_ht:.2f} €")
+print(f"Le total TTC pour {quantite} x-m {produit}(s) est de {total_ttc:.2f} €")
 #4
 int(prix_ht)
 
 total_ht = prix_ht * quantite
 total_ttc = total_ht * (1 + taux_tva)
+
