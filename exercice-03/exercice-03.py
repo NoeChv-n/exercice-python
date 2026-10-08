@@ -3,7 +3,7 @@ temperatures = [12.5, 14, 9.5, 17, 21, 19.5, 11]
 
 #1
 
-print(f"Moyenne : {sum(temperatures) / len(temperatures)}")
+print(f"Moyenne : {sum(temperatures) / len(temperatures):.2f}")
 print(f"Min : {min(temperatures)}")
 print(f"Max : {max(temperatures)}")
 
